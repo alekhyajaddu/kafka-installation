@@ -1,9 +1,14 @@
 # Kafka Commands
- Open PowerShell in C:\kafka_2.13-2.7.0 folder.
+Download the Latest Kafka and extract it using the following commands
+```
+$ tar -xzf kafka_2.13-2.7.0.tgz
+$ cd kafka_2.13-2.7.0
+```
+Open PowerShell in C:\kafka_2.13-2.7.0 folder.
 
- Use a different PowerShell window for each process.
+Use a different PowerShell window for each process.
 
- Window 1 - Run Zookeeper Service  (keep window open)
+Window 1 - Run Zookeeper Service  (keep window open)
 ```
 .\bin\windows\zookeeper-server-start.bat .\config\zookeeper.properties
 ```
